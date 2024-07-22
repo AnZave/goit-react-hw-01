@@ -1,0 +1,14 @@
+.friendsList {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  justify-content: center;
+}
+.friendsItem {
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 30px;
+}

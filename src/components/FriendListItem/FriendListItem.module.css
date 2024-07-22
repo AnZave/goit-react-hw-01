@@ -1,0 +1,11 @@
+.online {
+  color: green;
+}
+.offline {
+  color: red;
+}
+.friendItem {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

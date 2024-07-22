@@ -1,0 +1,24 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.title {
+  background-color: black;
+  color: #fff;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+tbody {
+  background-color: #143c756f;
+  color: black;
+}
+
+tbody:nth-child(2n + 1) {
+  background-color: #fafafa;
+}
