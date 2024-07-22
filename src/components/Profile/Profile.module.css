@@ -1,0 +1,58 @@
+.container {
+  max-width: 250px;
+  border: 2px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: "Arial", sans-serif;
+  background-color: #fff;
+  margin: 0 auto 50px;
+}
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 16px auto;
+}
+.userName {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 8px 0;
+}
+.userTag {
+  color: #757575;
+  font-size: 14px;
+  margin: 4px 0;
+}
+.userLocation {
+  color: #757575;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+.statsList {
+  display: flex;
+  background-color: #f6f8fa;
+  border-top: 1px solid #e1e4e8;
+  justify-content: space-around;
+}
+.statsItem {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 16px;
+  text-align: center;
+  border-right: 1px solid #e1e4e8;
+}
+.statsItem:last-child {
+  border-right: none;
+}
+.label {
+  color: #757575;
+  font-size: 12px;
+}
+.stats {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
